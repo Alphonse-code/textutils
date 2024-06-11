@@ -62,22 +62,3 @@ def lemmatize_text(text):
     words = text.split()
     lemmatized_words = [lemmatizer.lemmatize(word) for word in words]
     return ' '.join(lemmatized_words)
-
-
-text = "This is a sample text, with stopwords and various forms of words."
-
-# Nettoyage du texte
-cleaned_text = clean_text(text)
-print("Cleaned Text:", cleaned_text)
-
-# Comptage des mots
-count = word_count(cleaned_text)
-print("Word Count:", count)
-
-# Suppression des stop words
-no_stopwords = remove_stopwords(cleaned_text)
-print("Text without Stopwords:", no_stopwords)
-
-# Lemmatisation du texte
-lemmatized = lemmatize_text(no_stopwords)
-print("Lemmatized Text:", lemmatized)

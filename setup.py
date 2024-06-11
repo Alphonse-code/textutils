@@ -9,12 +9,12 @@ setup(
     install_requires=[
         'nltk',
     ],
-    author="Votre Nom",
-    author_email="votre.email@example.com",
+    author="Alphonse",
+    author_email="solofondraibedani@gmail.com",
     description="Une bibliothèque pour la manipulation de texte",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/votre_repo/textutils",
+    url="https://github.com/Alphonse-code/textutils",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
